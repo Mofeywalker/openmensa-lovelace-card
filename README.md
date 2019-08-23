@@ -12,3 +12,10 @@ resources:
   - url: /local/custom-lovelace/openmensa-lovelace-card/openmensa-lovelace-card.js
     type: module
 ```
+
+## Configuration
+Add a lovelace card with type ```custom:openmensa-card``` to your ```ui-lovelace.yaml```.
+```yaml
+type: custom:openmensa-card
+entity: sensor.openmensa_sensor
+```
