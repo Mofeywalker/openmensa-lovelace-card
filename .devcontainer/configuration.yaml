@@ -1,0 +1,7 @@
+
+default_config:
+lovelace:
+  mode: yaml
+sensor:
+  - platform: openmensa
+    code: 346

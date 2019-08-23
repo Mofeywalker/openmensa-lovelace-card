@@ -1,0 +1,9 @@
+resources:
+  - url: /local/openmensa-card.js
+    type: js
+views:
+  - title: test
+    cards:
+      - type: custom:openmensa-card
+        entity: sensor.openmensa_sensor
+
