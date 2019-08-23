@@ -1,5 +1,5 @@
 resources:
-  - url: /local/openmensa-card.js
+  - url: /local/openmensa-lovelace-card.js
     type: js
 views:
   - title: test

@@ -4,4 +4,4 @@ lovelace:
   mode: yaml
 sensor:
   - platform: openmensa
-    code: 346
+    code: 828
