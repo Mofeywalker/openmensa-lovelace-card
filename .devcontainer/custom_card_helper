@@ -10,7 +10,7 @@ function StartHomeAssistant {
   echo "Copy ui-lovelace.yaml"
   cp -f .devcontainer/.storage/lovelace /config/.storage || echo ".devcontainer/.storage/lovelace are missing!" exit 1
 
-  cp -f -r .devcontainer/custom_components /config
+  cp -f -r .devcontainer/openmensa/custom_components /config
 
   cp -f *.js /config/www
 

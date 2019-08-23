@@ -1,0 +1,3 @@
+[submodule ".devcontainer/openmensa"]
+	path = .devcontainer/openmensa
+	url = https://github.com/Mofeywalker/openmensa-hass-component.git
