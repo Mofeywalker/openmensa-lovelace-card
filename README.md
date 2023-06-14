@@ -18,4 +18,6 @@ Add a lovelace card with type ```custom:openmensa-card``` to your ```ui-lovelace
 ```yaml
 type: custom:openmensa-card
 entity: sensor.openmensa_sensor
+# optional, gets displayed instead of 'OpenMensa' as Card Header
+header: My Custom Header 
 ```
