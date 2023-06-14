@@ -7,7 +7,7 @@ class OpenMensaCard extends HTMLElement {
   set hass(hass) {
     if (!this.content) {
       const card = document.createElement('ha-card');
-      card.header = 'OpenMensa';
+      card.header = this.config.header || 'OpenMensa';
       this.content = document.createElement('div');
       this.content.style.padding = '0 16px 16px';
       card.appendChild(this.content);
